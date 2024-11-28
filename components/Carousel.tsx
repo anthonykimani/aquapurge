@@ -70,7 +70,7 @@ export default function Carousel() {
               priority={index === currentIndex || index === (currentIndex + 1) % carouselSource.length}
             />
             {(item.title || item.description) && (
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6 text-white">
+              <div className="bg-gradient-to-t from-black/60 to-transparent p-6 text-white">
                 {item.title && (
                   <h2 className="text-2xl font-bold mb-2">{item.title}</h2>
                 )}
