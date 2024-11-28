@@ -1,5 +1,5 @@
 import About from "@/components/About";
-import Carousel from "@/components/Carousel";
+import Carousel from "@/components/carousel";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Impact from "@/components/Impact";
