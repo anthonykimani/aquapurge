@@ -1,7 +1,7 @@
 "use client";
 
 import { buttonVariants } from "@/components/ui/button";
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { Facebook, Instagram, Linkedin , Twitter} from "lucide-react";
 import Image from "next/image";
 import {
   Card,
@@ -29,17 +29,13 @@ const teamList: TeamProps[] = [
     imageUrl:
       "https://media.licdn.com/dms/image/v2/D4D03AQGmqkgdiO8FzQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723330057093?e=1732752000&v=beta&t=eJ_WN9lzmwOBCrPRYoA4tT2d-FTu67yGXw3ld1dGDmM",
     name: "Ibrahim Aziz",
-    position: "Executive Director",
-    description: "Blockchain Developer",
+    position: "Founder, CEO",
+    description: "",
     socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
+      { name: "Linkedin", url: "http://linkedin.com/in/ibraziz21" },
       {
         name: "Instagram",
-        url: "https://www.instagram.com/",
+        url: "https://www.instagram.com/ibraziz21",
       },
     ],
   },
@@ -47,7 +43,7 @@ const teamList: TeamProps[] = [
     imageUrl:
       "https://media.licdn.com/dms/image/v2/D4D03AQFzlpGtaAwSCA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718622406085?e=1732752000&v=beta&t=aXtIFvMEiW0kOZW5J-TvUNtfrq55mP0b4l2kPtum-Lc",
     name: "Jonathan Else",
-    position: "Technical Director",
+    position: "CTO",
     description: "Depin and Onchain Analyst",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
@@ -66,10 +62,9 @@ const teamList: TeamProps[] = [
       "https://media.licdn.com/dms/image/v2/D5603AQEf0MqmmOjCPQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721054537854?e=1732752000&v=beta&t=Gr8-3V0zrqZq_-AzcrbERg5Tn0VUyVzlavilbPxCIp0",
     name: "Amina Ali",
     position: "PR Lead",
-    description: "Zero Knowledge Researcher",
+    description: "",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
-
       {
         name: "Instagram",
         url: "https://www.instagram.com/",
@@ -79,11 +74,11 @@ const teamList: TeamProps[] = [
   {
     imageUrl:
       "https://media.licdn.com/dms/image/v2/D4D03AQGmqkgdiO8FzQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723330057093?e=1732752000&v=beta&t=eJ_WN9lzmwOBCrPRYoA4tT2d-FTu67yGXw3ld1dGDmM",
-    name: "Omar Khalid",
-    position: "Product Manager",
-    description: "Blockchain Developer",
+    name: "Michael Momanyi",
+    position: "Environmental Lead",
+    description: "",
     socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
+      { name: "Linkedin", url: "https://www.linkedin.com/in/michael-m-morse/" },
       {
         name: "Facebook",
         url: "https://www.facebook.com/",
