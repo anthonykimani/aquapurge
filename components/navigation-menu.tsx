@@ -108,13 +108,7 @@ export function NavigationMenuContainer() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/mint" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Mint
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
+      
         <NavigationMenuItem>
           <Link href="/gallery" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>

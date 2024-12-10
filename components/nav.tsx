@@ -15,7 +15,7 @@ import { Button } from "./ui/button";
 const navigation = [
   { name: "Home", href: "/", current: true },
   { name: "Clean Ups", href: "/cleanups", current: false },
-  { name: "Mint", href: "/mint", current: false },
+  // { name: "Mint", href: "/mint", current: false },
   { name: "Gallery", href: "/gallery", current: false },
   { name: "Team", href: "/team", current: false },
 ];
@@ -64,7 +64,7 @@ export default function Navigation() {
                   <NavigationMenuContainer />
                 </div>
 
-                <Button variant="default" className="hidden sm:block bg-blue-500 hover:bg-blue-600">Donate</Button>
+                <Button variant="default" className="hidden sm:block bg-blue-500 hover:bg-blue-600">Launch APP</Button>
               </div>
               <div className="flex items-center sm:hidden">
                 <DisclosureButton className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">

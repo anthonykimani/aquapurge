@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "AquaPurge",
-  description: "AquaPurge Landing",
+  description: "AquaPurge Project",
 };
 
 export default function RootLayout({

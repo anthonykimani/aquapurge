@@ -1,5 +1,5 @@
 import About from "@/components/About";
-import Carousel from "@/components/carousel";
+import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Impact from "@/components/Impact";
@@ -9,7 +9,9 @@ import PhotoGrid from "@/components/PhotoGrid";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
 
-
+//<Testimonials />
+//<Carousel />
+//<PhotoGrid />
 
 export default function Home() {
   return (
@@ -18,9 +20,7 @@ export default function Home() {
       <HeroSection />
       <About />
       <Impact />
-      <Testimonials />
-      <Carousel />
-      <PhotoGrid />
+     
       <Team />
       <MarketingSection />
       <Footer />

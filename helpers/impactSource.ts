@@ -1,17 +1,17 @@
 export const impactSource = [
     {
-        title: "3",
-        subtitle: "Clean-up events",
+        title: "23",
+        subtitle: "Clean-ups",
         action: "hello"
     },
     {
-        title: "1054kgs",
+        title: "5413kgs",
         subtitle: "Waste collected",
         action: "hello"
     },
     {
-        title: "1",
-        subtitle: "Country",
+        title: "54",
+        subtitle: "Average Participants",
         action: "hello"
     },
 ]
