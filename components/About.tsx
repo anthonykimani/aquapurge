@@ -12,7 +12,7 @@ const About = () => {
           Combat Ocean pollution by incentivizing positive action and providing
           a platform for community-driven solutions.
         </h2>
-        <Link href="https://social-saving-pool-bwc4-react-app.vercel.app/">
+        <Link href="https://aquapurge-project.gitbook.io/aqpp-whitepaper/introduction">
           <button className=" py-3 px-6 w-[200px] border border-[#0E6FFF] text-[#0E6FFF] font-semibold hover:text-white hover:bg-[#0157d7] hover:cursor-pointer">
             Learn More
           </button>
@@ -27,7 +27,7 @@ const About = () => {
           take action towards a cleaner ocean, while also providing benefits and
           rewards for their efforts.
         </h2>
-        <Link href="https://social-saving-pool-bwc4-react-app.vercel.app/">
+        <Link href="https://aquapurge-project.gitbook.io/aqpp-whitepaper/the-aquapurge-solution">
           <button className=" py-3 px-6 w-[200px] border border-[#0E6FFF] text-[#0E6FFF] font-semibold hover:text-white hover:bg-[#0157d7] hover:cursor-pointer">
             Learn More
           </button>
