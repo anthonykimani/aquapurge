@@ -8,9 +8,10 @@ import {
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import AquaPurgeLogo from "@/public/svg/aqua-purge-logo";
+import AquaPurgeLogo from "@/public/img/aquapurge.png";
 import { NavigationMenuContainer } from "./navigation-menu";
 import { Button } from "./ui/button";
+import Image from "next/image";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
@@ -57,7 +58,8 @@ export default function Navigation() {
             <div className="relative flex h-16 items-center justify-between">
               <div className="flex items-center justify-between w-full md:px-20">
                 <Link href="/" className="flex flex-shrink-0 items-center">
-                  <AquaPurgeLogo />
+                  <Image src={AquaPurgeLogo} className="w-[50px]" alt="" />
+                  <h2 className="font-semibold font-jakarta">AQUAPURGE</h2>
                 </Link>
 
                 <div className="hidden sm:block">
